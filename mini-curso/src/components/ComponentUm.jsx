@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Card extends Component {
+class ComponentUm extends Component {
     render(){
         return(
             <div>
@@ -11,4 +11,4 @@ class Card extends Component {
     }
 }
 
-export default Card;
+export default ComponentUm;

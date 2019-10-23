@@ -1,17 +1,17 @@
-import React         from "react";
-import ExempleOne    from "../components/ExemploUm.jsx";
-import InputTitle    from "../components/InputInTitle";
-import ComponetProps from "../components/ComponentProps.jsx";
+import React         from 'react';
+import ComponentUm   from '../components/ComponentUm.jsx/index.js';
+import ComponentTres from '../components/ComponentTres.jsx';
+import ComponentDois from '../components/ComponentDois.jsx/index.jsx';
 import { Link }      from 'react-router-dom';
 
 function App(props){
     return (
         <div>
-            <ExempleOne />
+            <ComponentUm />
             <hr/>
-            <InputTitle />
+            <ComponentTres />
             <hr/>
-            <ComponetProps label={"Recebi as informações"} />
+            <ComponentDois label={"Recebi as informações"} />
             <Link to="/sobre">Sobre</Link>
         </div>
     )

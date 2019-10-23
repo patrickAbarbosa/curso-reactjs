@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Card extends Component {
+class ComponentDois extends Component {
     state= {
         title: ""
     }
@@ -19,4 +19,4 @@ class Card extends Component {
     }
 }
 
-export default Card;
+export default ComponentDois;

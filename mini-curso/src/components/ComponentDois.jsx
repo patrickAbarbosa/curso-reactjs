@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class ComponentProps extends Component {
+class ComponentDois extends Component {
     render(){
         const { label } = this.props;
         return(
@@ -12,4 +12,4 @@ class ComponentProps extends Component {
     }
 }
 
-export default ComponentProps;
+export default ComponentDois;
